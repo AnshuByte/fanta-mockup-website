@@ -26,6 +26,9 @@ html,body{
     height: 100%;
     background: red;
 }
+#logo{
+    width: 100px;
+}
 nav{
     position: fixed;
     width: 100%;
@@ -65,11 +68,13 @@ nav i{
     left: 34%;
     width: 15%;
     z-index: 1;
+    pointer-events: none;
 }
 #fanta{
     position: absolute;
     width: 36%;
     z-index: 2;
+    pointer-events: none;
 }
 #orange{
     width: 15%;
@@ -77,6 +82,8 @@ nav i{
     z-index: 3;
     top: 50%;
     left: 50%; 
+    pointer-events: none;
+
 }
 .one h1{
     position: absolute;
@@ -188,8 +195,8 @@ button{
     border: none;
 }
 #card-fanta1{
-    top: 0;
-    width: 40vw;
+    top: -11%;
+    width: 28vw;
     position:absolute;
 }
 #card-fanta3{
@@ -198,16 +205,25 @@ button{
     position:absolute;
 }
 .card:nth-child(1){
-    background: orange ;
+    background: rgb(255, 51, 51) ;
 }
 .card:nth-child(3){
     background: #B2E55D;
 }
 .card:nth-child(2){
-    background: #ffaa6e;
+    background: orange;
 }
 #orange-slice1{
+    top: -30%;
+    position: absolute;
+    width: 37vw;
+    transform: rotate(-10deg);
+}
+#apple{
     top: -5vw;
     position: absolute;
-    width: 20vw;
+    width: 18vw;
+    transform: rotate(10deg);
+    
 }
+
