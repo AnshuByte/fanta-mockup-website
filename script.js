@@ -64,13 +64,6 @@ tl2.to("#leaf2",{
     left:"85%",
     rotate:"90deg"
 },'three')
-// tl2.to("#leaf3",{
-    
-//     width: "13%",
-//     top:"270%",
-//     left:"80%",
-//     // rotate:"deg"
-// },'three')
 tl2.to("#orange-slice",{
     width: "20vw",
     top:"209%",
