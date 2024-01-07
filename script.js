@@ -56,7 +56,7 @@ tl2.to("#leaf1",{
     width: "13%",
     top:"270%",
     left:"0%",
-    // rotate:"180deg"
+
 },'three')
 tl2.to("#leaf2",{
     width: "13%",
