@@ -45,7 +45,6 @@ Feel free to explore the website. You can modify the code to customize the desig
 - Fanta for inspiring the design
 - [GSAP](https://greensock.com/gsap/) for providing powerful animation capabilities
 
-## Contact
-For any inquiries, please reach out to [your-email@example.com](mailto:your-email@example.com).
+
 
 
